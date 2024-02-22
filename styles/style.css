@@ -61,40 +61,40 @@ p {
     color: var(--cor-fonte);
 }
 
-.header .row {
+.row {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-top: 150px;
     width: 100%;
     padding: 0 25px 0 25px;
 }
 
-.header .row .column-2 {
+.row .column-2 {
     flex-basis: 50%;
     max-width: 490px;
 }
 
 
-.header .row img {
+.row img {
     width: 600px;
 }
 
 
-.header .row .column-2 h1 {
+.row .column-2 h1 {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
 
-.header .row .column-2 p {
+.row .column-2 p {
     color: var(--cor-fonte);
     font-weight: 500;
     margin-bottom: 40px;
 }
 
 
-.header .row .column-2 .btn {
+.column-2 .btn {
     background: var(--cor-btn);
     padding: 8px 20px;
     margin-top: 30px;
@@ -103,13 +103,13 @@ p {
     transition: background 0.5s;
 }
 
-.header .row .column-2 a {
+.row .column-2 a {
     color: var(--cor-btn-hover);
     text-decoration: none;
     font-weight: 500;
 }
 
-.header .row .column-2 .btn:hover {
+.row .column-2 .btn:hover {
     background: var(--cor-btn-hover);
     color: var(--cor-btn-fonte);
 }
@@ -118,22 +118,22 @@ p {
     margin: 70px 0;
 }
 
-.categories .content-cotegories {
+.content-cotegories {
     max-width: 1080px;
     margin: auto;
 }
 
-.categories .content-cotegories .cards {
+.content-cotegories .cards {
     display: flex;
     gap: 90px;
 }
 
-.categories .content-cotegories .cards .card {
+.content-cotegories .cards .card {
     flex-basis: 30%;
     max-width: 350px;
 }
 
-.categories .content-cotegories .cards .card img {
+.content-cotegories .cards .card img {
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -175,12 +175,6 @@ p {
     /* Limpa o float */
 }
 
-/* Clearfix para limpar o float */
-/* .cards-featured-content::after {
-    content: "";
-    display: table;
-    clear: both;
-} */
 
 .featured-content .cards-featured-content .card-featured-content {
     /* Cada card ocupa 25% da largura */
@@ -211,4 +205,26 @@ p {
 
 .featured-content .cards-featured-content .card-featured-content .star-rating {
     color: var(--cor-padrao);
+}
+
+.exclusive-products {
+    background: radial-gradient(var(--cor-padrao-hover), var(--cor-padrao));
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.exclusive-products .column-2 span {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.exclusive-products .column-2 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+p {
+    color: var(--cor-btn-fonte);
+    margin-bottom: 40px;
 }
