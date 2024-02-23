@@ -129,7 +129,7 @@ p {
 }
 
 .content-cotegories .cards .card {
-    flex-basis: 30%;
+    /* flex-basis: 30%; */
     max-width: 350px;
 }
 
@@ -203,10 +203,12 @@ p {
     font-weight: 500;
 }
 
-.featured-content .cards-featured-content .card-featured-content .star-rating {
+.featured-content .cards-featured-content .card-featured-content,
+.customer-testimonial .star-rating {
     color: var(--cor-padrao);
 }
 
+/*---------Produtos exclusivos------*/
 .exclusive-products {
     background: radial-gradient(var(--cor-padrao-hover), var(--cor-padrao));
     margin-top: 80px;
@@ -227,4 +229,49 @@ p {
 p {
     color: var(--cor-btn-fonte);
     margin-bottom: 40px;
+}
+
+/*---------Depoimentos------*/
+.customer-testimonial .cards {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.customer-testimonial .card {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.customer-testimonial .card:hover {
+    transform: scale(1.1);
+}
+
+.customer-testimonial .testimonial-icon {
+    font-size: 30px;
+    color: var(--cor-padrao);
+    margin-bottom: 30px;
+}
+
+.customer-testimonial .card p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--cor-fonte-corpo-leve);
+}
+
+.customer-testimonial .cards .card img {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 2px solid var(--cor-padrao);
+}
+
+.customer-testimonial .card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-fonte-corpo);
 }
