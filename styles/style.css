@@ -203,8 +203,7 @@ p {
     font-weight: 500;
 }
 
-.featured-content .cards-featured-content .card-featured-content,
-.customer-testimonial .star-rating {
+.featured-content .cards-featured-content .card-featured-content .star-rating {
     color: var(--cor-padrao);
 }
 
@@ -263,6 +262,10 @@ p {
     color: var(--cor-fonte-corpo-leve);
 }
 
+.customer-testimonial .star-rating {
+    color: var(--cor-padrao);
+}
+
 .customer-testimonial .cards .card img {
     width: 70px;
     border-radius: 50%;
@@ -275,3 +278,5 @@ p {
     font-weight: 600;
     color: var(--cor-fonte-corpo);
 }
+
+/*---------Marcas------*/
