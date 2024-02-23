@@ -280,3 +280,27 @@ p {
 }
 
 /*---------Marcas------*/
+.brands {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 200px auto;
+}
+
+.brands .cards {
+    gap: 124px;
+}
+
+.brands .cards .card {
+    width: 500px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.brands .cards .card:hover {
+    color: var(--cor-padrao);
+    transform: scale(1.1);
+}
+
+.brands .cards .card h2 {
+    font-size: 40px;
+}
