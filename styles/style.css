@@ -304,3 +304,52 @@ p {
 .brands .cards .card h2 {
     font-size: 40px;
 }
+
+/*---------Marcas------*/
+footer {
+    background-color: var(--cor-btn-fonte);
+    color: var(--cor-fonte);
+    font-size: 14px;
+}
+
+footer .footer-column-1,
+.footer-column-2,
+.footer-column-3 {
+    min-width: 250px;
+}
+
+footer .footer-column-2,
+.footer-column-3 {
+    /* flex-basis: 12%; */
+    text-align: right;
+    list-style: none;
+}
+
+footer .row {
+    padding: 50px 0;
+}
+
+footer h3 {
+    color: var(--cor-padrao);
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: var(--cor-fonte);
+}
+
+footer .footer-column-2 ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+footer .footer-column-3 ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.footer-column-1 .app-logo,
+img {
+    display: flex;
+    max-width: 180px;
+}
